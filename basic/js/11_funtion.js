@@ -88,3 +88,8 @@ const add = function(a, b) {
 }
 const add2 = (a,b) => a+b
 console.log(add2);
+
+const sum = add(5, 8)
+const sum2 = add2(10, 20)
+
+console.log(sum, sum2);
