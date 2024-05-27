@@ -1,0 +1,47 @@
+* {margin: 0;padding: 0;box-sizing: border-box;}
+body {
+    font-size: 14px;
+    color: #111;
+}
+
+.container {
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+    gap: 20px;
+}
+
+.photo {
+    background-color: #ddd;
+    height: 400px;
+    width: 400px;
+}
+.btns {
+    display: flex;
+}
+
+.btns div {
+    width: 36px;
+    height: 36px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order {
+}
+.order .item {
+    margin: 20px 0;
+    font-size: 20px;
+}
+.counter {
+    display: flex;
+    gap: 80px;
+    background-color: #ddd;
+    border-radius: 6px;
+    padding: 20px 16px;
+    align-items: center;
+    justify-content: space-between;
+}

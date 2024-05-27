@@ -21,8 +21,8 @@ body { margin: 30px;}
 }
 
 .gnb li.on a{
-    color: deeppink;
-    background-color: antiquewhite;
+    color: darkblue;
+    background-color: #eee;
 }
 
 p {

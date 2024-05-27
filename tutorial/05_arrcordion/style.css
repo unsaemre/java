@@ -1,0 +1,47 @@
+
+* {padding: 0;margin: 0;box-sizing: border-box;}
+
+h1 {
+    text-align: center;
+    margin: 50px 0;
+}
+.contents {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.contents .item {
+}
+
+.contents .item h2 {
+    background-color: #fff;
+    border-bottom: 1px solid #333;
+    padding: 16px 0;
+    cursor: pointer;
+    font-size: 22px;
+    position: relative;
+}
+.contents .item h2::after{
+    font-family: 'xeicon';
+    content: "\e913";
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.contents .item p {
+    line-height: 1.6;
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+    transition: all 0.3s;
+}
+.contents .item.active p {
+    height: auto;
+    padding: 20px 0;
+}
+.contents .item.active h2::after {
+    font-family: 'xeicon';
+    content: "\e91a";
+}
